@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Task {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        LinkedList<String> list = new LinkedList<>();
+        LinkedList<String> list = new LinkedList<String>();
 
         while (true) {
             System.out.println("Введите (print / revert / exit) для выполнения команд:");
